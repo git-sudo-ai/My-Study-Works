@@ -1,0 +1,30 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Редакторы и IDE
+.idea/
+.vscode/
+*.sublime-workspace
+*.sublime-project
+*.swp
+*.swo
+
+# Зависимости и сборщики (если появится Node.js / Vite / Parcel)
+node_modules/
+dist/
+build/
+.cache/
+.parcel-cache/
+
+# Логи и временные файлы
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+*.log
+
+# Переменные окружения
+.env
+.env.local
+.env.*.local
