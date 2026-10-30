@@ -1,0 +1,92 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Segoe UI", "Tahoma, Geneva, Verdana, sans-serif";
+  background-color: #090c15;
+  color: f0f3fa;
+  line-height: 1.6;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Magic", "Georgia", serif;
+  color: #f4c97b;
+  letter-spacing: 0.05em;
+  font-weight: 700;
+}
+
+p {
+  margin-bottom: 1em;
+  color: #f0f3fa;
+}
+
+a {
+  color: #f4c97b;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #fff;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+.top-header {
+  background-color: rgba(9, 12, 21, 0.95);
+  border-bottom: 1px solid rgba(229, 184, 105, 0.35);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.header-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 12px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo-link {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.logo-img {
+  width: 52px;
+  height: 52px;
+  border-radius: 50%;
+  border: 2px solid #f4c97b;
+  box-shadow: 0 0 10px rgba(244, 201, 123, 0.25);
+}
+
+.logo-text h1 {
+  font-family: "HogwartsMagic", "Georgia", serif;
+  font-size: 1.35rem;
+  line-height: 1.2;
+  color: #f4c97b;
+}
+
+.logo-text span {
+  font-size: 0.8rem;
+  color: #9aa3b8;
+  font-family: "Segoe UI", sans-serif;
+  letter-spacing: 0.03em;
+}
